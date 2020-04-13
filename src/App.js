@@ -7,12 +7,9 @@ import MyFooter from "./components/MyFooter";
 function App() {
   return (
     <div className="App">
-      <div className="main-navbar">
-        <img className="main-logo col-8 col-md-4" src={logo} alt="Hopo Logo" />
-      </div>
+      <img src={logo} alt="Hopo Logo" className="hopo-logo" />
+      <h2>Shopping at the airport? <span>We deliver it where you are!</span></h2>
       <MyForm />
-      <HowToSteps />
-      <MyFooter />
     </div>
   );
 }
