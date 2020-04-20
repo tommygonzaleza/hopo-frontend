@@ -23,7 +23,7 @@ const MyForm = () => {
                         "phone_number": JSON.stringify(phoneNumber)
                    },
                     headers: {
-                       "Content-type": "text/plain"
+                       "Content-Type": "text/plain"
                    }
                }
            )
