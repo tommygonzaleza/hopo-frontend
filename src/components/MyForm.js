@@ -55,7 +55,7 @@ const MyForm = () => {
         }
     }
     return (
-        <div className="myform-styles" >
+        <div className="myform-styles">
             <h3>Join our community.</h3>
             <form className="m-5" onSubmit={handleSubmit} >
                 <div className="">
@@ -76,7 +76,7 @@ const MyForm = () => {
                 </div>
                 <input className="mt-3 d-block mx-auto mt-3 w-100 submit-button" type="submit" value="SUBMIT" />
             </form>
-            <p className="">By submitting this form I agree to hopo <a href="">Terms and Conditions</a></p>
+            <p className="">By submitting this form I agree to Hopo <a href="">Terms and Conditions</a></p>
         </div>
         
     );
