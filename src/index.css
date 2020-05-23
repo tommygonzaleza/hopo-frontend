@@ -58,9 +58,9 @@ body {
 }
 div h2 {
     color: white;
-    font-size: 48px;
+    font-size: 44px;
     font-weight: 100;
-    margin-top: 4%;
+    margin-top: 2%;
     margin-left: 6%;
     width: 50%;
 }
@@ -88,4 +88,27 @@ div p a {
 div p a:hover {
     color: #5c5c5c;
     text-decoration: none;
+}
+
+/* Carousel Styles. */
+
+.my-carousel {
+    width: 40% !important;
+    height: 10% !important;
+    display: inline-block !important;
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-top: 2%;
+}
+.carousel-item {
+    width: 80% !important;
+    position: relative;
+    left: 51%;
+    transform: translate(-50%);
+    margin-top: 2%;
+}
+.carousel-caption {
+    position: relative;
+    left: 0;
+    top: 0;
 }
